@@ -14,7 +14,7 @@ body {
 }
 
 .one-content {
-    width: 800px;
+    width: 900px;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -55,6 +55,7 @@ body {
 
 .left{
     height: 250px;
+    width: 400px
 }
 
 .left h1 {
@@ -87,10 +88,12 @@ button {
     flex-direction: column;
     align-items: center;
     height: 400px;
+    padding-top: 20px;
 }
 
 h2 {
     color: #1F2937;
+    margin-bottom: 30px;
 }
 
 .cubes {
@@ -165,7 +168,7 @@ h2 {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 50px;
-    width: 800px;
+    width: 900px;
 }
 
 .blue-rec h3 {
