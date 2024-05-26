@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto';
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -144,4 +148,35 @@ h2 {
     align-self: flex-end;
 }
 
+.four {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.blue-rec {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+    width: 800px;
+}
+
+.blue-rec h3 {
+    margin: 0;
+}
+
+.blue-rec span {
+    font-weight: lighter;
+}
+
+.blue-rec button {
+    border-radius: 15px;
+    border: 2px solid white;
+}
